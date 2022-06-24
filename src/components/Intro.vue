@@ -1,26 +1,26 @@
 
 <template>
   <div class="h-screen bg-slate-800 text-slate-100">
-    <div class="md:flex md:justify-between md:items-center md:p-14" style="height: 20vh;">
-      <h1 class="text-2xl"><a href="/">Avonasandratra</a></h1>
-      <div class="text-lg text-slate-200">
+    <div class="flex justify-between sm:flex sm:justify-between sm:items-center p-14" style="height: 20vh;">
+      <h1 class="text-md sm:text-2xl"><a href="/">Avonasandratra</a></h1>
+      <div class="text-lg text-slate-200 hidden sm:block">
         <ul class="md:flex md:justify">
-          <li class="md:mx-3"><a href="#">Projects</a></li>
-          <li class="md:mx-3"><a href="#">Contact</a></li>
+          <li class="md:mx-3"><a href="#projects">Projects</a></li>
+          <li class="md:mx-3"><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div>
-        <button class="px-4 py-3 rounded-md bg-teal-400">Hire me</button>
+        <a class="px-4 py-3 rounded-md text-sm sm:text-md bg-teal-400" href="#contact">Hire me</a>
       </div>
     </div>
-    <div class="md:grid md:grid-cols-3 md:p-14" style="height: 80vh;">
-      <div class="md:col-span-1 flex flex-col items-center justify-center">
+    <div class="flex flex-col md:flex-none md:grid md:grid-cols-3 md:p-14" style="height: 80vh;">
+      <div class="m-10 md:col-span-1 md:m-0 flex flex-col items-center justify-center">
         <div>
           <h2 class="font-bold text-3xl uppercase">Hi, I am <br /> Avonasandratra</h2>
           <h3 class="text-slate-300 text-xl">A Full-Stack Developer</h3>
         </div>
       </div>
-      <div class="md:col-span-2 flex flex-col items-center justify-center">
+      <div class="m-10 md:m-0 md:col-span-2 flex flex-col items-center justify-center">
         <div class="text-center">
           <img 
             src="@/assets/svg_portfolio/01.svg" 
