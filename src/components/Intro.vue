@@ -23,7 +23,7 @@
       <div class="m-10 md:m-0 md:col-span-2 flex flex-col items-center justify-center">
         <div class="text-center">
           <img 
-            src="./src/assets/svg_portfolio/01.svg" 
+            src="https://raw.githubusercontent.com/Nasan01/tmp_pic/d4e6970bb4fc6994c9403fac6beef2f7801d8c11/01.svg" 
             alt="side picture representation"
             class="w-5/6 h-5/6"
           />
