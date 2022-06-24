@@ -1,5 +1,9 @@
+<script setup>
+  import Intro from './components/Intro.vue';
+</script>
+
 <template>
-  <div>
-    <h1>Hi</h1>
+  <div class="bg-slate-800">
+    <Intro />
   </div>
 </template>
