@@ -17,7 +17,7 @@
       <div class="md:col-span-1 flex flex-col items-center justify-center">
         <div>
           <h2 class="font-bold text-3xl uppercase">Hi, I am <br /> Avonasandratra</h2>
-          <h3 class="text-slate-300 text-xl">A Full-Stack Developper</h3>
+          <h3 class="text-slate-300 text-xl">A Full-Stack Developer</h3>
         </div>
       </div>
       <div class="md:col-span-2 flex flex-col items-center justify-center">
