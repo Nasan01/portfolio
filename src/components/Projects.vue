@@ -2,9 +2,9 @@
   import { ref } from 'vue';
 
   const projects = ref([
-    { pic: "/src/assets/pic_projects/hi-chaty.png", name:"Chat-App", domain:"Web Application", link:"https://github.com/Nasan01/hi-chat" },
+    { pic: "./src/assets/pic_projects/hi-chaty.png", name:"Chat-App", domain:"Web Application", link:"https://github.com/Nasan01/hi-chat" },
     { pic: "/src/assets/pic_projects/pendu.png", name:"Riddle words", domain:"Frontend App", link:"https://nasan01.github.io/pendu-game" },
-    { pic: "/src/assets/pic_projects/portfolio.png", name:"My-portfolio", domain:"Website", link:"/" },
+    { pic: "./src/assets/pic_projects/portfolio.png", name:"My-portfolio", domain:"Website", link:"/portfolio" },
   ]);
 
 </script>

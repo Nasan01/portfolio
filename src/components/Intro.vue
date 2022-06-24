@@ -2,7 +2,7 @@
 <template>
   <div class="h-screen bg-slate-800 text-slate-100">
     <div class="flex justify-between sm:flex sm:justify-between sm:items-center p-14" style="height: 20vh;">
-      <h1 class="text-md sm:text-2xl"><a href="/">Avonasandratra</a></h1>
+      <h1 class="text-md sm:text-2xl"><a href="/portfolio">Avonasandratra</a></h1>
       <div class="text-lg text-slate-200 hidden sm:block">
         <ul class="md:flex md:justify">
           <li class="md:mx-3"><a href="#projects">Projects</a></li>
@@ -23,7 +23,7 @@
       <div class="m-10 md:m-0 md:col-span-2 flex flex-col items-center justify-center">
         <div class="text-center">
           <img 
-            src="@/assets/svg_portfolio/01.svg" 
+            src="./src/assets/svg_portfolio/01.svg" 
             alt="side picture representation"
             class="w-5/6 h-5/6"
           />
